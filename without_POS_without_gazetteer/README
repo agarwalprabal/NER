@@ -1,0 +1,14 @@
+System requirement
+CRF++ Toolkit must be installed in the system
+python 2.7 or later must be installed on the system
+
+input must be in wx form in the format
+<sentence id = 'id number'>
+number<tab>word
+</sentence>
+
+Follow the following commands to get the output
+1)change directory to the code folder of the module
+2)python test.py <inputfilename>
+3)crf_test -m ../model/model ../test_data/test_crf > ../output/crf
+4)python final.py
